@@ -22,5 +22,14 @@ dbus.connect_signal("com.ch1p.avm", function(...)
 
 To build the app on Ubuntu, you need to install `libasound2-dev` and `libdbus-1-dev`.
 
+### I added PKGBUILD for you
+
+This require `libalsa` and `dbus`
+
+```
+cd /tmp
+wget https://raw.githubusercontent.com/ndgnuh/alsa-volume-monitor/master/PKGBUILD
+makepkg -si
+```
 ### License
 GPLv2

@@ -10,3 +10,7 @@ main: main.o
 
 main.o:
 	${CC} ${CFLAGS} -c main.c
+
+clean:
+	rm main.o
+	rm alsa-volume-monitor
